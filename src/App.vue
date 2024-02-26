@@ -7,20 +7,7 @@
   const estado = reactive({
     filtro: 'todas',
     tarefaTemp: '',
-    tarefas: [
-      {
-        titulo: 'Estudar ES6',
-        finalizada: false
-      },
-      {
-        titulo: 'Estudar Bootstrap',
-        finalizada: true
-      },
-      {
-        titulo: 'Ler documentação do VueJS',
-        finalizada: false
-      }
-    ]
+    tarefas: []
   });
 
   const getTarefasPendentes = () => {
