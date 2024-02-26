@@ -1,5 +1,7 @@
 <script setup>
-  const estado = reactive({
+  import { ref } from 'vue';
+
+  const estado = ref({
     tarefas: [
       {
         titulo: 'Estudar ES6',
